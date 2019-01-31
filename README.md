@@ -1,24 +1,5 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pour trouver les gossips de la ville de Wolfftown, entrer :
+tp Gossip.find_by(user_id:(User.find_by(city_id:(City.find_by(name: "Wolfftown")))))
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Projet réalisé par
